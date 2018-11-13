@@ -12,11 +12,15 @@ public class CubeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Text p = GameObject.Find("Text").GetComponent<Text>();
-        Debug.Log(p.text);
-	}
+    }
 
     public void RotateCube() {
+        Text x = GameObject.Find("AxisX").GetComponent<Text>();
+        Text y = GameObject.Find("AxisY").GetComponent<Text>();
+        Text z = GameObject.Find("AxisZ").GetComponent<Text>();
+        Text angle = GameObject.Find("Angle").GetComponent<Text>();
+
         transform.rotation = Quaternion.AngleAxis(45, new Vector3(0, 1, 0));
+
     }
 }
