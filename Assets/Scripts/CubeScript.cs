@@ -11,6 +11,10 @@ public class CubeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.rotation = Quaternion.AngleAxis(45, new Vector3(0, 1, 0));
+        //transform.rotation = Quaternion.AngleAxis(45, new Vector3(0, 1, 0));
 	}
+
+    public void RotateCube() {
+        transform.rotation = Quaternion.AngleAxis(45, new Vector3(0, 1, 0));
+    }
 }
