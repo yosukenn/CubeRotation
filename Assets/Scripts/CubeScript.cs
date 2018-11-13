@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CubeScript : MonoBehaviour {
 
@@ -11,7 +12,8 @@ public class CubeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //transform.rotation = Quaternion.AngleAxis(45, new Vector3(0, 1, 0));
+        Text p = GameObject.Find("Text").GetComponent<Text>();
+        Debug.Log(p.text);
 	}
 
     public void RotateCube() {
