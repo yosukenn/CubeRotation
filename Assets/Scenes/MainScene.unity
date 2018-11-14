@@ -330,13 +330,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 197366822}
   m_TextComponent: {fileID: 1266827419}
   m_Placeholder: {fileID: 421078448}
-  m_ContentType: 0
+  m_ContentType: 3
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 2
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -770,7 +770,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4475792, g: 0.6183843, b: 0.8867924, a: 0}
+  m_BackGroundColor: {r: 0.44705883, g: 0.8862745, b: 0.8411072, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -890,13 +890,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 560115280}
   m_TextComponent: {fileID: 1676027380}
   m_Placeholder: {fileID: 1142606406}
-  m_ContentType: 0
+  m_ContentType: 3
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 2
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -1334,13 +1334,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 912013076}
   m_TextComponent: {fileID: 21667840}
   m_Placeholder: {fileID: 1714969135}
-  m_ContentType: 0
+  m_ContentType: 3
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 2
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -1844,13 +1844,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1420072665}
   m_TextComponent: {fileID: 2135694962}
   m_Placeholder: {fileID: 1037411253}
-  m_ContentType: 0
+  m_ContentType: 3
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 2
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
