@@ -31,4 +31,9 @@ public class CubeScript : MonoBehaviour {
         transform.rotation *= Quaternion.AngleAxis(angleNum, new Vector3(xNum, yNum, zNum));
 
     }
+
+    public void ResetCube() {
+        transform.rotation = Quaternion.AngleAxis(0, new Vector3(0, 0, 0));
+    }
+
 }
