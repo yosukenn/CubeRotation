@@ -44,6 +44,10 @@ public class CubeScript : MonoBehaviour {
     }
 
     public void ResetCube() {
+        if (err.enabled == true)
+        {
+            err.enabled = false;
+        }
         transform.rotation = Quaternion.AngleAxis(0, new Vector3(0, 0, 0));
 
 
