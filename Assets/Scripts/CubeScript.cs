@@ -27,9 +27,9 @@ public class CubeScript : MonoBehaviour {
             float angleNum = float.Parse(angle.text);
 
             transform.rotation *= Quaternion.AngleAxis(angleNum, new Vector3(xNum, yNum, zNum));
+        } else {
+            Debug.Log("数値を入力してください");
         }
-
-
 
     }
 
