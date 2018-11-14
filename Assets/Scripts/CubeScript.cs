@@ -23,10 +23,6 @@ public class CubeScript : MonoBehaviour {
         float yNum = float.Parse(y.text);
         float zNum = float.Parse(z.text);
         float angleNum = float.Parse(angle.text);
-        Debug.Log(xNum);
-        Debug.Log(yNum);
-        Debug.Log(zNum);
-        Debug.Log(angleNum);
 
         transform.rotation *= Quaternion.AngleAxis(angleNum, new Vector3(xNum, yNum, zNum));
 
@@ -34,6 +30,7 @@ public class CubeScript : MonoBehaviour {
 
     public void ResetCube() {
         transform.rotation = Quaternion.AngleAxis(0, new Vector3(0, 0, 0));
+
     }
 
 }
