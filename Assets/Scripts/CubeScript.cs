@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CubeScript : MonoBehaviour {
 
+    public Text err;
+
 	// Use this for initialization
 	void Start () {
 		
