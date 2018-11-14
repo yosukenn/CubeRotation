@@ -6,9 +6,13 @@ using UnityEngine.UI;
 public class ResetScript : MonoBehaviour {
 
     public InputField x;
+    public InputField y;
+    public InputField z;
+    public InputField angle;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -18,10 +22,10 @@ public class ResetScript : MonoBehaviour {
 	}
 
     public void ResetText() {
-        Debug.Log(x);
-        Debug.Log(x.text);
         x.text = "0";
-        Debug.Log(x.text);
+        y.text = "0";
+        z.text = "0";
+        angle.text = "0";
 
     }
 }
